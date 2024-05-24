@@ -1,0 +1,38 @@
+{
+  "canisters": {
+    "roger_sign_in_azle_backend": {
+      "build": "npx azle roger_sign_in_azle_backend",
+      "candid": "src/roger_sign_in_azle_backend/roger_sign_in_azle_backend.did",
+      "gzip": true,
+      "main": "src/roger_sign_in_azle_backend/src/index.ts",
+      "tech_stack": {
+        "cdk": {
+          "azle": {}
+        },
+        "language": {
+          "typescript": {}
+        }
+      },
+      "type": "custom",
+      "wasm": ".azle/roger_sign_in_azle_backend/roger_sign_in_azle_backend.wasm"
+    },
+    "roger_sign_in_azle_frontend": {
+      "dependencies": [
+        "roger_sign_in_azle_backend"
+      ],
+      "source": [
+        "src/roger_sign_in_azle_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "roger_sign_in_azle_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
