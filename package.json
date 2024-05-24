@@ -15,5 +15,9 @@
   "workspaces": [
     "src/roger_sign_in_azle_backend",
     "src/roger_sign_in_azle_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/auth-client": "^1.3.0",
+    "azle": "^0.21.1"
+  }
 }
