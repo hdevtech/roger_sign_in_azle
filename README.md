@@ -8,7 +8,6 @@ If you want to start working on your project right away, you might want to try t
 
 ```bash
 cd roger_sign_in_azle/
-npm install
 
 ```
 
