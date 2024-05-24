@@ -11,7 +11,7 @@ cd roger_sign_in_azle/
 
 ```
 
-### Note Running th project 
+### Note while Running the project 
 ```bash
 #Make sure That the following are installed in your system 
 #1. 
