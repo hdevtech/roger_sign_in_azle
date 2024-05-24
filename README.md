@@ -14,7 +14,7 @@ npm install
 
 ### Note Running th project 
 ```bash
-Make sure That the following are installed in your system 
+#Make sure That the following are installed in your system 
 #1. 
 apt install pkg-config
 
